@@ -71,7 +71,7 @@ x86_64, i386
   [updates-debuginfo] 
   name=Fedora $releasever - $basearch - Updates - Debug -shu
   failovermethod=priority 
-  baseurl=https://mirrors.shu.edu.cn/fedora/updates/$releasever/$basearch/debug/ 
+  baseurl=https://mirrors.shu.edu.cn/fedora/updates/$releasever/Everything/$basearch/debug/ 
   #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=updates-released-debug-f$releasever&arch=$basearch 
   enabled=0 
   gpgcheck=1 
